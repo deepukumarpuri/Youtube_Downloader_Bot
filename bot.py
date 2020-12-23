@@ -9,7 +9,7 @@ dispatcher = Dispatcher(bot)
 
 @dispatcher.message_handler(commands=['start'])
 async def start(message: types.message):
-    await bot.send_message(message.from_user.id, 'Hello!, Just input a URL to download!')
+    await bot.send_message(message.from_user.id, 'Hello!, I am HK ROBOT BOT Just input a URL to download!SUPPOT CHENNEL :- HK_ROBOT_HELP ')
 
 
 @dispatcher.message_handler()
